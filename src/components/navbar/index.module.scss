@@ -1,0 +1,71 @@
+.navbar_main {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  .btn_container {
+    .btn {
+      background-color: white;
+
+      padding: 10px 25px 10px 25px;
+      font-size:20px;
+      font-weight: 600;
+      border-radius: 12px;
+      &:hover 
+      {
+        background-color: rgb(67, 80, 105);
+        color: white;
+        border: 1px solid white;
+      }
+    }
+  }
+  .navbar_logo {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    .animation_container {
+      position: relative;
+      height: 48px;
+
+      width: 100px;
+      .img {
+        border-radius: 30px;
+      }
+    }
+    .title {
+      font-weight: 700;
+      font-size: 34px;
+      color: white;
+      opacity: 0;
+      animation: TitleFade 1s ease-in-out 0.2s forwards;
+    }
+  }
+  .navbar_cont {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    .navbar_items {
+      font-size: 22px;
+      font-weight: semi-bold;
+      color: white;
+      transition: color 0.3s ease;
+      &:hover {
+        color: rgb(105, 164, 176);
+      }
+    }
+  }
+}
+
+@keyframes TitleFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
