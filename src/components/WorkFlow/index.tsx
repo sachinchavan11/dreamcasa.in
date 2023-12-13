@@ -1,48 +1,73 @@
 import React from 'react';
-import styles from './index.module.scss'; // Make sure to use the correct file path
-import Images from 'next/image';
+import styles from './index.module.scss';
+import Image from 'next/image';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
-const Legacy = () => {
-  const data = [
-    { icon: '/images/yearsex.svg', value: 5, label: 'Years of Trust' },
-    { icon: '/images/projects.jpg', value: 2, label: 'Commercial Projects' },
-    {
-      icon: '/images/happy_customer.jpg',
-      value: 100,
-      label: 'Happy Customers',
-    },
-    { icon: '/images/trust.jpg', value: 5, label: 'Years of Client success' },
-  ];
+const data = [
+  {
+    label: 'Contact Expert',
+    image: '/images/workflow/agent.png',
+  },
 
+  {
+    label: 'Choose a Property',
+    image: '/images/workflow/select.png',
+  },
+  {
+    label: 'Plan a Site Visit',
+    image: '/images/workflow/sitevisit.png',
+  },
+  {
+    label: 'Loan Assistance',
+    image: '/images/workflow/loan.png',
+  },
+  {
+    label: 'Get your Dream home',
+    image: '/images/workflow/meet.png',
+  },
+];
+
+const WorkFlow = () => {
   return (
-    <div className={styles.main_cont}>
-      <div className={styles.title_cont}>
-        <p>
-          <span className={styles.normal_cont}> HOW</span>{' '}
-          <span className={styles.highlight}>It Works</span>
-        </p>
+    <div className={styles.main_container}>
+      <div className={styles.heading}>
+        <div>
+          <span className={styles.normal_cont}> Follow  </span>{' '}
+          <span className={styles.highlight}>The Roadmap</span>
+        </div>
         <div className={styles.line}></div>
       </div>
-      <div className={styles.legacy_cont}>
-        {data.map((item, index) => (
-          <div className={styles.items_cont} key={index}>
-            <div className={styles.img_icon}>
-              <Images
-                src={item.icon}
-                alt={`item-${index}`}
-                layout="fill"
-                objectFit="contain"
-              />
-            </div>
-            <div className={styles.text_cont}>
-              <h2>{item.value}</h2>
-              <p>{item.label}</p>
-            </div>
-          </div>
-        ))}
+      <div className={styles.workflow_cont}>
+        <div className={styles.flow_item}>
+          {data.map((item: any, index: any) => {
+            const isLastItem = index === data.length - 1;
+            return (
+              <div key={index} className={styles.item_wrap}>
+                <div className={styles.item_cont}>
+                  <div className={styles.image_wrap}>
+                    <div className={styles.image_cont}>
+                      <Image
+                        src={item.image}
+                        alt="expert"
+                        layout="fill"
+                        objectFit="contain"
+                      />
+                    </div>
+                  </div>
+                  <p className={styles.step}>{item.label}</p>
+                </div>
+                {!isLastItem && (
+                  <div>
+                    <ArrowForwardIcon sx={{ height: '80px', width: '70px' }} />
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
 };
 
-export default Legacy;
+export default WorkFlow;
