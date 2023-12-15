@@ -9,18 +9,21 @@ const cardlist = [
     description:
       'Find your place with an immersive photo experience and the most listings, including things you won’t find anywhere else.',
     label: 'Browse More',
-  },
-  {
-    title: 'Sell a Home',
-    description:
-      'No matter what path you take to sell your home, we can help you navigate a successful sale.',
-    label: 'Visit Site',
+    image: '/images/buyhome.jpg',
   },
   {
     title: 'Buy a Flat ',
     description:
       'No matter what path you take to sell your home, we can help you navigate a successful sale.',
     label: 'Visit Site',
+    image: '/images/buyflat.jpg',
+  },
+  {
+    title: 'Sell a Home',
+    description:
+      'No matter what path you take to sell your home, we can help you navigate a successful sale.',
+    label: 'Visit Site',
+    image: '/images/sellhome.jpg',
   },
 ];
 
@@ -34,6 +37,7 @@ const FeatureComponent = () => {
               title={item.title}
               description={item.description}
               label={item.label}
+              image={item.image}
             />
           </div>
         );

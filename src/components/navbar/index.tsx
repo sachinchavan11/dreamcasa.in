@@ -32,6 +32,9 @@ const Navbar = () => {
         <Link href="/career">
           <div className={styles.navbar_items}>Refer Us</div>
         </Link>
+        <Link href="/contact">
+          <div className={styles.navbar_items}>Contact Us</div>
+        </Link>
         <Link href="/aboutus">
           <div className={styles.navbar_items}>About Us</div>
         </Link>

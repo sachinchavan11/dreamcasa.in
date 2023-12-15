@@ -1,25 +1,36 @@
 .card_container {
-    padding: 40px 0px;
+  position: relative;
+  padding: 40px 0px;
+  .img_wrap {
+    position: relative;
+    border: 2px solid rgb(154, 143, 143);
+    border-radius: 20px;
+    margin-bottom: 12px;
     .img_cont {
-      position: relative;
-      width: 330px;
+      width: 333px;
       height: 188px;
-    }
-    .text_cont {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      .title {
-        font-size: 24px;
-        line-height: 32px;
-        font-weight: 700;
-        font-family: var(--gordita);
-      }
-      .description {
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 400;
-        font-family: var(--desc);
+      border-radius: 20px;
+      > img {
+        border-radius: 20px;
       }
     }
   }
+
+  .text_cont {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .title {
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 700;
+      font-family: var(--gordita);
+    }
+    .description {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+      font-family: var(--desc);
+    }
+  }
+}

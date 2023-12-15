@@ -4,16 +4,13 @@ import Image from 'next/image';
 import { Button } from '@mui/material';
 
 const CardFeature = (props: any) => {
-  const { title, description, label } = props;
+  const { title, description, label, image } = props;
   return (
     <div className={styles.card_container}>
-      <div className={styles.img_cont}>
-        <Image
-          src="/images/buy_home.webp"
-          alt="buy_a_home"
-          layout="fill"
-          objectFit="contain"
-        />
+      <div className={styles.img_wrap}>
+        <div className={styles.img_cont}>
+          <Image src={image} alt="buy_a_home" layout="fill" objectFit="cover" />
+        </div>
       </div>
       <div className={styles.text_cont}>
         <p className={styles.title}>{title}</p>
