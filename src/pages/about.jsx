@@ -1,12 +1,12 @@
-import React from 'react'
-import Aboutus from "../components/aboutus"
+import React from 'react';
+import Aboutus from '../components/aboutus';
 
 const About = () => {
   return (
     <div>
-       <Aboutus />
+      <Aboutus />
     </div>
-  )
-}
+  );
+};
 
 export default About;

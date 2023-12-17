@@ -10,14 +10,17 @@ const Navbar = () => {
       <div className={styles.navbar_logo}>
         <div className={styles.animation_container}>
           <Image
-            src="/gifs/logoanimation.gif"
+            src="/images/logo.png"
             alt="logo_animation"
             layout="fill"
             objectFit="cover"
             className={styles.img}
           />
         </div>
-        <p className={styles.title}>DREAMCASA</p>
+       <div className={styles.test}>
+       <p className={styles.title}>DREAMCASA</p>
+       <p className={styles.tag}>Right key to Dream key</p>
+       </div>
       </div>
       <div className={styles.navbar_cont}>
         <Link href="/">
@@ -35,7 +38,7 @@ const Navbar = () => {
         <Link href="/contact">
           <div className={styles.navbar_items}>Contact Us</div>
         </Link>
-        <Link href="/aboutus">
+        <Link href="/about">
           <div className={styles.navbar_items}>About Us</div>
         </Link>
       </div>

@@ -1,7 +1,7 @@
 .navbar_main {
   position: relative;
   width: 100%;
-  height: 70px;
+  height: 75px;
   background-color: black;
   display: flex;
   flex-direction: row;
@@ -12,12 +12,11 @@
     .btn {
       background-color: white;
 
-      padding: 10px 25px 10px 25px;
-      font-size:20px;
+      padding: 5px 25px 5px 25px;
+      font-size: 20px;
       font-weight: 600;
       border-radius: 12px;
-      &:hover 
-      {
+      &:hover {
         background-color: rgb(67, 80, 105);
         color: white;
         border: 1px solid white;
@@ -30,19 +29,37 @@
     gap: 12px;
     .animation_container {
       position: relative;
-      height: 48px;
-
+      height: 50px;
+      display: flex;
+      align-self: center;
+      scale: 1.3;
       width: 100px;
       .img {
         border-radius: 30px;
       }
     }
-    .title {
-      font-weight: 700;
-      font-size: 34px;
-      color: white;
-      opacity: 0;
-      animation: TitleFade 1s ease-in-out 0.2s forwards;
+
+    .test {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      margin-left: -20px;
+      color: rgb(221, 214, 214);
+      .title {
+        font-weight: 700;
+        font-size: 32px;
+
+        color: white;
+        opacity: 0;
+        animation: TitleFade 1s ease-in-out 0.2s forwards;
+      }
+      .tag {
+        margin-left: -5px;
+        margin-top: -10px;
+        font-size: 12px;
+        color: rgb(247, 239, 239);
+      }
     }
   }
   .navbar_cont {

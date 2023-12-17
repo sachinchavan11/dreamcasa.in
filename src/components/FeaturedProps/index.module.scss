@@ -1,0 +1,26 @@
+.main_container
+{
+    padding: 40px 100px;
+    position: relative;
+    width: 100vw;
+    margin-bottom:60px;
+   .title {
+   font-size: 34px;
+   font-weight: 700;
+   margin-bottom: 40px;
+    }
+    .tagline
+    {
+        font-size: 24px;
+        font-weight: 650;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .props_card_cont
+    {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        justify-content: space-between;
+    }
+}

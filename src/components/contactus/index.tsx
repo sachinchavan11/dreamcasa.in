@@ -51,7 +51,9 @@ const ContactUs = () => {
               <label htmlFor="Email">Email:</label>
               <input type="text" id="Email" name="email" required />
             </div>
-            <button type="submit">Submit</button>
+            <div className={styles.btn_cont}>
+              <button type="submit">Submit</button>
+            </div>
           </form>
         </div>
       </div>

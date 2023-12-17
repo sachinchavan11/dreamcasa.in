@@ -18,8 +18,8 @@ const Legacy = () => {
     <div className={styles.main_cont}>
       <div className={styles.title_cont}>
         <p>
-          <span className={styles.normal_cont}> Success</span>{' '}
-          <span className={styles.highlight}>Over the Years</span>
+          <span className={styles.normal_cont}> SUCCESS</span>{' '}
+          <span className={styles.highlight}>OVER  THE  YEARS</span>
         </p>
         <div className={styles.line}></div>
       </div>

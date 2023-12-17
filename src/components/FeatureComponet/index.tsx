@@ -29,19 +29,23 @@ const cardlist = [
 
 const FeatureComponent = () => {
   return (
-    <div className={styles.feature_cont}>
-      {cardlist.map((item: any, index: any) => {
-        return (
-          <div key={index} className={styles.card_main_container}>
-            <CardFeature
-              title={item.title}
-              description={item.description}
-              label={item.label}
-              image={item.image}
-            />
-          </div>
-        );
-      })}
+    <div className={styles.main_cont}>
+      <h2 className={styles.title}>OUR SERVICES</h2>
+      <p className={styles.desc}>Unlocking Doors to Your Dreams - Our Services Tailored for Your Perfect Home.</p>
+      <div className={styles.feature_cont}>
+        {cardlist.map((item: any, index: any) => {
+          return (
+            <div key={index} className={styles.card_main_container}>
+              <CardFeature
+                title={item.title}
+                description={item.description}
+                label={item.label}
+                image={item.image}
+              />
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };

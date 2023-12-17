@@ -1,0 +1,30 @@
+.main_container {
+  border: 2px solid rgb(236, 228, 82);
+  box-shadow: 10px 10px 10px gray;
+
+  border-radius: 20px;
+  padding: 20px;
+  .img {
+    .img_cont {
+      position: relative;
+      height: 160px;
+      width: 400px;
+      >img
+      {
+        border-radius: 20px;
+        
+      }
+    }
+  }
+
+  .company {
+    font-size: 600;
+    font-size: 20px;
+    text-align: start;
+  }
+  .location {
+    font-size: 500;
+    font-size: 18px;
+    text-align: start;
+  }
+}
