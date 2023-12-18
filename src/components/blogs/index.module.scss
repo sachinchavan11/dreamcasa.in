@@ -2,7 +2,10 @@
   position: relative;
   padding: 40px 100px;
   width: 100%;
-  margin-bottom: 40px;
+  background-image: url("../../../public/images/background/blogs_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 60px;
   .title {
     font-size: 34px;
     font-weight: 700;
@@ -11,9 +14,11 @@
   .desc
   {
     margin-bottom: 50px;
-    font-size: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
+    color: rgb(221, 136, 71);
 
   }
   .card_cont {

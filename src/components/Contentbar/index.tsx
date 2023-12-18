@@ -31,7 +31,7 @@ const ContentBar = () => {
         <div className={styles.img_wrap}>
           <div className={styles.imageContainer}>
             <Image
-              src="/images/searchbar/image4.jpg"
+              src="/images/scrooler/city3.jpg"
               alt="content_bar_img"
               layout="fill"
               objectFit="cover"
@@ -41,7 +41,7 @@ const ContentBar = () => {
         <div className={styles.img_wrap}>
           <div className={styles.imageContainer}>
             <Image
-              src="/images/banner_building.jpg"
+              src="/images/scrooler/city1.jpg"
               alt="content_bar_img"
               layout="fill"
               objectFit="cover"
@@ -51,7 +51,7 @@ const ContentBar = () => {
         <div className={styles.img_wrap}>
           <div className={styles.imageContainer}>
             <Image
-              src="/images/searchbar/city.jpg"
+              src="/images/scrooler/city2.jpg"
               alt="content_bar_img"
               layout="fill"
               objectFit="cover"

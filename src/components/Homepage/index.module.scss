@@ -1,7 +1,32 @@
 .main_container {
   position: relative;
   overflow: hidden;
+
   .sub_cont {
     margin-bottom: 20px;
+  }
+
+  .contact_cont {
+    position: fixed;
+    right: 0;
+    top: 26%;
+    border-top-left-radius: 10px;
+
+    .li_item {
+      padding: 10px 2px;
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      background-color: rgb(130, 182, 214);
+      border: 1px solid rgb(218, 180, 120);
+      transition: margin-left 1s ease, background-color 0.3s ease;
+      font-weight: 700;
+
+      &:hover {
+        margin-right: -15px; 
+        background-color: lightpink; 
+      }
+    }
+    
   }
 }

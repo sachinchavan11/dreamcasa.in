@@ -37,6 +37,8 @@ const WorkFlow = () => {
         </div>
         <div className={styles.line}></div>
       </div>
+      <p className={styles.tagline}>Where Trust is Built, and Complexity Simplified for better living</p>
+
       <div className={styles.workflow_cont}>
         <div className={styles.flow_item}>
           {data.map((item: any, index: any) => {

@@ -7,7 +7,8 @@ const Aboutus = () => {
     <div className={`${styles.main}`}>
       <div className={`${styles.headerTitle}`}>
         <h1 className={`${styles.title}`}>
-        We Excel at Discovering Fantastic Homes For   <br /> Our Clients.
+          WE EXCEL AT DISCOVERING FANTASTIC HOMES FOR
+          <br /> OUR CLIENTS.
         </h1>
       </div>
       <div className={`${styles.heroSection}`}>
@@ -19,7 +20,7 @@ const Aboutus = () => {
           </h1>
           <h1 className={`${styles.title}`}>Since 2020</h1>
           <p className={`${styles.description}`}>
-            One of the Top RealEstate Channel Partner firm in Hyderabad
+            ONE  OF THE TOP REALESTATE CHANNEL PARTNER FIRM IN HYDERABAD
           </p>
         </div>
       </div>

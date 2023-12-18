@@ -19,10 +19,14 @@ const Legacy = () => {
       <div className={styles.title_cont}>
         <p>
           <span className={styles.normal_cont}> SUCCESS</span>{' '}
-          <span className={styles.highlight}>OVER  THE  YEARS</span>
+          <span className={styles.highlight}>OVER THE YEARS</span>
         </p>
         <div className={styles.line}></div>
       </div>
+      <p className={styles.tagline}>
+        Embracing Success Over the Years: Navigating a Journey Defined by
+        Process, Built on Trust, and Sustained by Consistency.
+      </p>
       <div className={styles.legacy_cont}>
         {data.map((item, index) => (
           <div className={styles.items_cont} key={index}>
