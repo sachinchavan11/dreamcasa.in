@@ -32,12 +32,13 @@ const WorkFlow = () => {
     <div className={styles.main_container}>
       <div className={styles.heading}>
         <div>
-          <span className={styles.normal_cont}> Follow  </span>{' '}
+          <span className={styles.normal_cont}> Follow </span>{' '}
           <span className={styles.highlight}>The Roadmap</span>
         </div>
-        <div className={styles.line}></div>
       </div>
-      <p className={styles.tagline}>Where Trust is Built, and Complexity Simplified for better living</p>
+      <p className={styles.tagline}>
+        Where Trust is Built, and Complexity Simplified for better living
+      </p>
 
       <div className={styles.workflow_cont}>
         <div className={styles.flow_item}>

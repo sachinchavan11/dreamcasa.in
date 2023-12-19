@@ -4,6 +4,7 @@
   height: 75px;
   background-color: black;
   display: flex;
+
   flex-direction: row;
   margin: auto;
   justify-content: space-around;
@@ -11,7 +12,6 @@
   .btn_container {
     .btn {
       background-color: white;
-
       padding: 5px 25px 5px 25px;
       font-size: 20px;
       font-weight: 600;
@@ -68,13 +68,18 @@
     gap: 30px;
     .navbar_items {
       font-size: 20px;
-      font-weight: semi-bold;
+      font-weight: 600;
       color: white;
       transition: color 0.3s ease;
       &:hover {
         color: rgb(105, 164, 176);
       }
     }
+  }
+  .login_touch_btn {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
   }
 }
 

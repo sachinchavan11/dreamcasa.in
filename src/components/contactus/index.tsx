@@ -28,6 +28,7 @@ const ContactUs = () => {
       </div>
       <div className={styles.form_main}>
         <h2 className={styles.title}> CONTACT US</h2>
+        <p></p>
         <div className={styles.form_cont}>
           <form onSubmit={handleFormSubmit}>
             <div>

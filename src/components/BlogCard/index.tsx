@@ -6,7 +6,9 @@ const BlogCard = (props: any) => {
   const { title, month, index, desc } = props;
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const truncatedDesc = isExpanded ? desc : `${desc.split(' ').slice(0, 13).join(' ')}...`;
+  const truncatedDesc = isExpanded
+    ? desc
+    : `${desc.split(' ').slice(0, 13).join(' ')}...`;
 
   return (
     <div className={styles.main_container}>
@@ -23,16 +25,16 @@ const BlogCard = (props: any) => {
         <p>{month}</p>
       </div>
       <p className={styles.blog_title}>{title}</p>
-      <p className={styles.desc}>{truncatedDesc} {!isExpanded && (
-        <span className={styles.see_more} onClick={() => setIsExpanded(true)}>
-          See More &#8594;
-        </span>
-      )}</p>
-     
+      <p className={styles.desc}>
+        {truncatedDesc}{' '}
+        {!isExpanded && (
+          <span className={styles.see_more} onClick={() => setIsExpanded(true)}>
+            See More &#8594;
+          </span>
+        )}
+      </p>
     </div>
   );
 };
 
 export default BlogCard;
-
-

@@ -15,13 +15,15 @@ const Dataprops = [
     name: 'MYHOME',
     location: 'Nankram Guda',
   },
-  
 ];
 const FeaturedProps = () => {
   return (
     <div className={styles.main_container}>
-      <h2 className={styles.title}> FEATURED PROPERTIES:</h2>
-        <p className={styles.tagline}>Your Gateway to Exclusive Real Estate Opportunities – Building Dreams with Channel Partnerships</p>
+      <h2 className={styles.title}> FEATURED PROPERTIES</h2>
+      <p className={styles.tagline}>
+        Your Gateway to Exclusive Real Estate Opportunities – Building Dreams
+        with Channel Partnerships
+      </p>
       <div className={styles.props_card_cont}>
         {Dataprops.map((item: any, index: any) => {
           return (

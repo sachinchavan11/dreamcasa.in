@@ -36,9 +36,9 @@
     flex-direction: column;
     justify-content: flex-end;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(226, 236, 238);
     border-radius: 12px;
-    background-image: url('../../../public/images/contactbg2.jpg');
+    // background-image: url('../../../public/images/contactbg2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 10px 5px 10px 0px #313131;
@@ -49,7 +49,7 @@
     .title {
       font-size: 34px;
       font-weight: 700;
-      color: #dfe619;
+      color: #f09d62;
     }
 
     .form_cont {

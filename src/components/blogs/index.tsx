@@ -28,7 +28,7 @@ const data = [
 const BlogsComponent = () => {
   return (
     <div className={styles.main_container}>
-      <h2 className={styles.title}>ARTICLES AND NEWS:</h2>
+      <h2 className={styles.title}>ARTICLES AND NEWS</h2>
       <p className={styles.desc}>
         Explore our curated collection of insightful articles and latest news,
         delving into the realms of investment strategies and the dynamic

@@ -3,7 +3,7 @@
   padding: 40px 0px;
   .img_wrap {
     position: relative;
-    border: 2px solid rgb(154, 143, 143);
+    border: 2px solid rgb(233, 206, 206);
     border-radius: 20px;
     margin-bottom: 12px;
     .img_cont {
@@ -22,14 +22,14 @@
     gap: 20px;
     .title {
       font-size: 24px;
+      text-transform: uppercase;
       line-height: 32px;
       font-weight: 700;
-      font-family: var(--gordita);
     }
     .description {
       font-size: 16px;
       line-height: 24px;
-      font-weight: 400;
+      font-weight: 500;
       font-family: var(--desc);
     }
   }

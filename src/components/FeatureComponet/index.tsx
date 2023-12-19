@@ -27,11 +27,14 @@ const cardlist = [
   },
 ];
 
-const FeatureComponent = () => {
+const Services = () => {
   return (
     <div className={styles.main_cont}>
       <h2 className={styles.title}>OUR SERVICES</h2>
-      <p className={styles.desc}>Unlocking Doors to Your Dreams - Our Services Tailored for Your Perfect Home.</p>
+      <p className={styles.desc}>
+        Unlocking Doors to Your Dreams - Our Services Tailored for Your Perfect
+        Home.
+      </p>
       <div className={styles.feature_cont}>
         {cardlist.map((item: any, index: any) => {
           return (
@@ -50,4 +53,4 @@ const FeatureComponent = () => {
   );
 };
 
-export default FeatureComponent;
+export default Services;

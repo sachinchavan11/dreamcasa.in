@@ -1,6 +1,38 @@
 .img_container {
   position: relative;
 
+  .themes {
+    position: absolute;
+    top: 22%;
+    z-index: 1;
+    left: 30%;
+    font-weight: 700;
+    font-size: 34px;
+    color: rgba(205, 210, 215, 0.988);
+  }
+  .quore {
+    position: absolute;
+    top: 50%;
+    text-transform: uppercase;
+    z-index: 100;
+    left: 16%;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(237, 231, 46, 0.988);
+  }
+  .title {
+    position: absolute;
+    z-index: 100;
+    top: 12%;
+    color: rgb(242, 240, 238);
+    left: 40%;
+    font-weight: 700;
+    font-size: 46px;
+    .highlight {
+      color: rgb(221, 221, 122);
+    }
+  }
+
   &:before {
     content: '';
     position: absolute;
@@ -26,7 +58,7 @@
     position: absolute;
     background-color: white;
     display: flex;
-    top: 30%;
+    top: 37%;
     left: 50%;
     transform: translate(-50%, -50%);
     justify-content: space-between;

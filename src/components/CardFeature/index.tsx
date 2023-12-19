@@ -15,7 +15,18 @@ const CardFeature = (props: any) => {
       <div className={styles.text_cont}>
         <p className={styles.title}>{title}</p>
         <p className={styles.description}>{description}</p>
-        <Button variant="outlined" color="secondary" sx={{ fontWeight: 700 }}>
+        <Button
+          variant="contained"
+          color="secondary"
+          sx={{
+            fontWeight: 700,
+            color: 'black',
+            backgroundColor: 'rgb(235, 146, 146)',
+            '&:hover': {
+              backgroundColor: 'rgb(228, 236, 239)',
+            },
+          }}
+        >
           {label}
         </Button>
       </div>
