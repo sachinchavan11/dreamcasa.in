@@ -11,13 +11,22 @@
   .list_cont {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
+    .item_cont {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      .bold
+      {
+        font-weight: 600;
+      }
+    }
   }
 
   .title_cont {
     font-size: 24px;
     font-weight: 600;
+    margin-bottom: 10px;
   }
   .horiz_line {
     width: 100%;
@@ -26,5 +35,7 @@
   }
   .Copyrights {
     text-align: center;
+    text-transform: uppercase;
+    margin-top: -20px;
   }
 }

@@ -54,12 +54,13 @@ const Navbar = () => {
             sx={{
               fontWeight: 700,
               color: 'white',
-      height:"42px",
+              height: '42px',
               '&:hover': {
                 backgroundColor: 'white',
                 color: 'black',
               },
             }}
+            href={'http://wa.me/+918639820425'}
           >
             GET IN TOUCH
           </Button>

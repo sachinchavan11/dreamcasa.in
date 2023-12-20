@@ -7,6 +7,7 @@ import WorkFlow from '../WorkFlow';
 import CustomerReviews from '../review';
 import FeaturedProps from '../FeaturedProps';
 import BlogsComponent from '../blogs';
+import { useRouter } from 'next/router';
 import {
   FaBars,
   FaTimes,
@@ -19,6 +20,10 @@ import {
 import { MdOutgoingMail } from 'react-icons/md';
 
 const Homepage = () => {
+  const router = useRouter();
+  const handleLink = () => {
+    router.push('https://www.youtube.com/@dreamcasarealestate');
+  };
   return (
     <>
       <div className={styles.main_container}>
@@ -38,8 +43,8 @@ const Homepage = () => {
                 Phone <FaPhone size={30} />
               </a>
             </li>
-            <li className={styles.li_item}>
-              <a href="https://youtube.com/@dreamcasarealestate?si=Xdeax2sM649KazJo">
+            <li className={styles.li_item} onClick={handleLink}>
+              <a href="https://www.youtube.com/@dreamcasarealestate">
                 YouTube <FaYoutube size={30} />
               </a>
             </li>

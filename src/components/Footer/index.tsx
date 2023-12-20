@@ -17,20 +17,20 @@ const Footer = () => {
     <div className={styles.footer_main}>
       <div className={styles.list_cont}>
         <div>
-          <h2 className={styles.title_cont}>Contact Us:</h2>
-          <div className="">
+          <h2 className={styles.title_cont}>CONTACT US:</h2>
+          <div className={styles.item_cont}>
             <div className="">
               <span className="">
                 <LocalPhoneIcon /> Between 9AM to 9PM :
               </span>
-              <p>8639820425</p>
+              <p className={styles.bold}>8639820425</p>
             </div>
             <div className={''}>
               <div>
                 <span className="">
                   <WhatsAppIcon /> Whatsapp Message at :
                 </span>
-                <p>8639820425</p>
+                <p className={styles.bold}>8639820425</p>
               </div>
             </div>
             <div className="">
@@ -38,19 +38,19 @@ const Footer = () => {
                 <span className="">
                   <EmailIcon /> Email us at :
                 </span>
-                <p>dreamcasarealestates@gmail.com</p>
+                <p className={styles.bold}>dreamcasarealestates@gmail.com</p>
               </div>
             </div>
             <div>
               <span className="">
                 <LocationOnIcon /> Cooperate office:
               </span>
-              <p>Gowra fountainhead ,Madhapur, Hyderabad ,Telangana</p>
+              <p className={styles.bold}>Gowra fountainhead ,Madhapur, Hyderabad ,Telangana</p>
             </div>
           </div>
         </div>
         <div>
-          <h2 className={styles.title_cont}>DreamCasa</h2>
+          <h2 className={styles.title_cont}>DREAMCASA</h2>
           <ul className="">
             <li>Home</li>
             <li>Properties</li>
@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <h2 className={styles.title_cont}>Follow Us</h2>
+          <h2 className={styles.title_cont}>FOLLOW US</h2>
           <ul className="text-[16px] font-normal">
             <li className="mb-2">
               <FacebookIcon /> Facebook
@@ -87,7 +87,7 @@ const Footer = () => {
       </div>
       <div className={styles.horiz_line}></div>
       <div className={styles.Copyrights}>
-        ©2023 All Copyrights are reserved to DreamCasa Pvt limited.
+        ©2023 All Copyrights are Reserved to DreamCasa Pvt limited.
       </div>
     </div>
   );
