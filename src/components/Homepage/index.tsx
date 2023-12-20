@@ -38,7 +38,7 @@ const Homepage = () => {
         <BlogsComponent />
         <div className={styles.contact_cont}>
           <ul>
-            <li className={styles.li_item}>
+            <li className={`${styles.li_item} ${styles.item1}`}>
               <a href="https://www.instagram.com/thesachinchavan_/">
                 Phone <FaPhone size={30} />
               </a>
@@ -59,7 +59,7 @@ const Homepage = () => {
               </a>
             </li>
 
-            <li className={styles.li_item}>
+            <li className={`${styles.li_item} ${styles.item}`}>
               <a href="https://github.com/sachinchavan11">
                 Github <FaGithub size={30} />
               </a>
