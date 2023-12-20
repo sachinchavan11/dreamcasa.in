@@ -3,9 +3,8 @@
   position: relative;
   width: 100%;
   margin-bottom: 60px;
-
-  // background-color: rgb(216, 216, 216);
-  background-image: url('../../../public/images/background/workflow.jpg');
+background-color: rgb(227, 239, 246);
+  
   .heading {
     display: flex;
     flex-direction: row;
@@ -30,8 +29,6 @@
       font-family: var(--gordita);
       font-weight: 700;
     }
-
-    
   }
   .tagline {
     font-size: 24px;
@@ -54,13 +51,18 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 30px;
+        justify-content: center;
+
         .item_cont {
+          border: 2px solid rgb(124, 116, 116);
+          padding: 10px;
+          box-shadow: 10px 10px 10px rgb(201, 193, 193);
+          border-radius: 10px;
           display: flex;
           flex-direction: column;
           align-items: center;
           justify-items: center;
-
+          min-width: 150px;
           max-width: 120px;
           .image_wrap {
             display: flex;
@@ -83,6 +85,9 @@
             font-weight: 600;
             text-align: center;
           }
+        }
+        .arrow{
+          padding-left: 20px;
         }
       }
     }

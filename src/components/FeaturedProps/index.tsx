@@ -19,7 +19,7 @@ const Dataprops = [
 const FeaturedProps = () => {
   return (
     <div className={styles.main_container}>
-      <h2 className={styles.title}> FEATURED PROPERTIES</h2>
+      <h2 className={styles.title}> FEATURED <span className={styles.highlight}>PROPERTIES</span></h2>
       <p className={styles.tagline}>
         Your Gateway to Exclusive Real Estate Opportunities – Building Dreams
         with Channel Partnerships

@@ -16,7 +16,7 @@ import {
   FaYoutube,
   FaPhone,
 } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
+import { MdOutgoingMail } from 'react-icons/md';
 
 const Homepage = () => {
   return (
@@ -32,25 +32,25 @@ const Homepage = () => {
         <Legacy />
         <BlogsComponent />
         <div className={styles.contact_cont}>
-          <ul className="">
+          <ul>
             <li className={styles.li_item}>
               <a href="https://www.instagram.com/thesachinchavan_/">
                 Phone <FaPhone size={30} />
               </a>
             </li>
             <li className={styles.li_item}>
-              <a href="https://drive.google.com/file/d/1qZCMGzFJCFEchCoWA_JSEOcDuVx86GU1/view?usp=drive_link">
+              <a href="https://youtube.com/@dreamcasarealestate?si=Xdeax2sM649KazJo">
                 YouTube <FaYoutube size={30} />
               </a>
             </li>
             <li className={styles.li_item}>
               <a href="https://www.linkedin.com/in/sachin-chavan-425615208/">
-                Linked <FaLinkedin size={30} />
+                LinkedIn <FaLinkedin size={30} />
               </a>
             </li>
             <li className={styles.li_item}>
               <a href="mailto:lavudyasachinchavan@gmail.com">
-                Gmail <HiOutlineMail size={30} />
+                Gmail <MdOutgoingMail size={30} />
               </a>
             </li>
 

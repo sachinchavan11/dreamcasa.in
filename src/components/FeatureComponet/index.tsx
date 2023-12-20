@@ -30,7 +30,7 @@ const cardlist = [
 const Services = () => {
   return (
     <div className={styles.main_cont}>
-      <h2 className={styles.title}>OUR SERVICES</h2>
+      <h2 className={styles.title}>OUR <span className={styles.highlight}>SERVICES</span></h2>
       <p className={styles.desc}>
         Unlocking Doors to Your Dreams - Our Services Tailored for Your Perfect
         Home.

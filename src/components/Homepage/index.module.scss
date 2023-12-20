@@ -17,16 +17,24 @@
       display: flex;
       justify-items: center;
       align-items: center;
-      background-color: rgb(130, 182, 214);
-      border: 1px solid rgb(218, 180, 120);
+      background-color: rgb(37, 89, 121);
+      border: 1px solid rgb(224, 218, 209);
       transition: margin-left 1s ease, background-color 0.3s ease;
       font-weight: 700;
+      border-radius: 2px;
 
-      &:hover {
-        margin-right: -15px; 
-        background-color: lightpink; 
+      a {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+      }
+
+      svg {
+        margin-right: 5px;
+        fill: white; /* Set the fill color of the icons to white */
       }
     }
-    
   }
 }

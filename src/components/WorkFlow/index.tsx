@@ -22,7 +22,7 @@ const data = [
     image: '/images/workflow/loan.png',
   },
   {
-    label: 'Get your Dream home',
+    label: 'Get  Dream home',
     image: '/images/workflow/meet.png',
   },
 ];
@@ -60,7 +60,7 @@ const WorkFlow = () => {
                   <p className={styles.step}>{item.label}</p>
                 </div>
                 {!isLastItem && (
-                  <div>
+                  <div className={styles.arrow}>
                     <ArrowForwardIcon sx={{ height: '80px', width: '70px' }} />
                   </div>
                 )}
