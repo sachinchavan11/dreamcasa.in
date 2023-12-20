@@ -10,24 +10,29 @@
     position: fixed;
     right: 0;
     top: 26%;
-    border-top-left-radius: 10px;
-
-    .li_item {
-      padding: 10px 2px;
+    z-index: 1000;
+   ul
+   {
+    background-color:rgb(227, 235, 239);
+    border-radius: 6px;
+    li {
+      padding: 8px 2px;
       display: flex;
-      justify-items: center;
+      margin-bottom: px;
+      justify-content: center;
       align-items: center;
-      background-color: rgb(37, 89, 121);
+      background-color: rgb(41, 83, 109);
       border: 1px solid rgb(224, 218, 209);
       transition: margin-left 1s ease, background-color 0.3s ease;
       font-weight: 700;
-      border-radius: 2px;
+      border-radius: 6px;
 
       a {
         display: flex;
         color: white;
         flex-direction: column;
         align-items: center;
+        text-align: center;
         text-decoration: none;
       }
 
@@ -36,5 +41,7 @@
         fill: white; /* Set the fill color of the icons to white */
       }
     }
+   }
+  
   }
 }

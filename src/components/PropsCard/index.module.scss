@@ -5,6 +5,7 @@
   border-radius: 20px;
   padding: 20px;
   .img {
+    position: relative;
     .img_cont {
       position: relative;
       height: 160px;
@@ -14,16 +15,53 @@
         border-radius: 20px;
       }
     }
+    .featured {
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 10px;
+      padding: 4px;
+      font-size: 18px;
+      background-color: rgb(227, 227, 45);
+      font-weight: 650;
+      color: rgb(69, 64, 64);
+    }
+    
   }
-
-  .company {
-    font-weight: 600;
-    font-size: 20px;
-    text-align: start;
-  }
-  .location {
-    font-size: 500;
-    font-size: 18px;
-    text-align: start;
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .company {
+      font-weight: 700;
+      font-size: 20px;
+      text-align: start;
+      margin-bottom: 5px;
+    }
+    .location_cont {
+      display: flex;
+      .location {
+        font-size: 500;
+        color: rgb(218, 145, 49);
+        font-size: 18px;
+        text-align: start;
+      }
+    }
+    .pricing
+    {
+      font-size: 20px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: rgb(165, 190, 54);
+    }
+    .extra
+    {
+      text-align: center;
+      font-size: 16px;
+      font-weight: 700;
+      color: rgb(19, 17, 17);
+    }
   }
 }

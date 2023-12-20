@@ -45,7 +45,9 @@ const Footer = () => {
               <span className="">
                 <LocationOnIcon /> Cooperate office:
               </span>
-              <p className={styles.bold}>Gowra fountainhead ,Madhapur, Hyderabad ,Telangana</p>
+              <p className={styles.bold}>
+                Gowra fountainhead ,Madhapur, Hyderabad ,Telangana
+              </p>
             </div>
           </div>
         </div>
