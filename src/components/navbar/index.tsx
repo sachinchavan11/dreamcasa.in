@@ -20,7 +20,7 @@ const Navbar = () => {
         </div>
         <div className={styles.test}>
           <p className={styles.title}>DREAMCASA</p>
-          <p className={styles.tag}>Right key to Dream key</p>
+          <p className={styles.tag}>Right Path to Dream key</p>
         </div>
       </div>
       <div className={styles.navbar_cont}>

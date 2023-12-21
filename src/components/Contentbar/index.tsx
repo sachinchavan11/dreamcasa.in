@@ -27,16 +27,23 @@ const ContentBar = () => {
 
   return (
     <div className={styles.img_container}>
-      {/* <p>ARE YOU LOOKING TO BUY PROPERTY</p> */}
       <h2 className={styles.title}>
         DREAM<span className={styles.highlight}>CASA</span>
       </h2>
-
-      <p className={styles.themes}>RIGHT KEY TO YOUR DREAM KEY</p>
+      <p className={styles.themes}>RIGHT PATH TO DREAM KEY</p>
+      {/* <p className={styles.globe}>
+        <Image
+          src="/gifs/global.gif"
+          alt="global_cover"
+          layout="fill"
+          objectFit="cover"
+        />
+      </p> */}
       <p className={styles.quore}>
-          Discover more by browsing your premier destination for all things real
-          estate
-        </p>
+        Discover more by browsing your premier destination for all things in
+        real estate
+      </p>
+
       <Slider {...slickSettings}>
         <div className={styles.img_wrap}>
           <div className={styles.imageContainer}>

@@ -15,6 +15,7 @@ import {
   FaLinkedin,
   FaInstagram,
   FaYoutube,
+  FaWhatsapp,
   FaPhone,
 } from 'react-icons/fa';
 import { MdOutgoingMail } from 'react-icons/md';
@@ -39,29 +40,29 @@ const Homepage = () => {
         <div className={styles.contact_cont}>
           <ul>
             <li className={`${styles.li_item} ${styles.item1}`}>
-              <a href="https://www.instagram.com/thesachinchavan_/">
-                Phone <FaPhone size={30} />
+              <a href="https://www.instagram.com/dreamcasarealestates/?igsh=YzVkODRmOTdmMw%3D%3D" target='_blank'>
+                Instagm <FaInstagram size={30} />
               </a>
             </li>
             <li className={styles.li_item} onClick={handleLink}>
-              <a href="https://www.youtube.com/@dreamcasarealestate">
+              <a href="https://www.youtube.com/@dreamcasarealestate" target='_blank'>
                 YouTube <FaYoutube size={30} />
               </a>
             </li>
             <li className={styles.li_item}>
-              <a href="https://www.linkedin.com/in/sachin-chavan-425615208/">
+              <a href="https://www.linkedin.com/in/sachin-chavan-425615208/" target='_blank'>
                 LinkedIn <FaLinkedin size={30} />
               </a>
             </li>
             <li className={styles.li_item}>
-              <a href="mailto:lavudyasachinchavan@gmail.com">
+              <a href="mailto:lavudyasachinchavan@gmail.com" target='_blank'>
                 Gmail <MdOutgoingMail size={30} />
               </a>
             </li>
 
             <li className={`${styles.li_item} ${styles.item}`}>
-              <a href="https://github.com/sachinchavan11">
-                Github <FaGithub size={30} />
+              <a href="http://wa.me/+918639820425" target='_blank'>
+                whatsap <FaWhatsapp size={30} />
               </a>
             </li>
           </ul>
