@@ -1,12 +1,12 @@
-import BlogsComponent from '@/components/blogs';
+import BlogsHero from '@/components/Blogshero';
 import React from 'react';
 
-const blogs = () => {
+const Blogs = () => {
   return (
     <div>
-      <BlogsComponent />
+      <BlogsHero />
     </div>
   );
 };
 
-export default blogs;
+export default Blogs;

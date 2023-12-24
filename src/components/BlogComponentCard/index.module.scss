@@ -1,0 +1,24 @@
+.main_cont {
+  position: relative;
+  background-color: white;
+  max-width: 500px;
+  padding: 20px 50px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow:5px 3px 10px 4px rgba(0, 0, 0, 0.1);
+  .img_cont {
+    position: relative;
+    height: 300px;
+    width: 400px;
+  }
+  .heading {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .desc_cont {
+    font-size: 16px;
+    font-size: 500;
+  }
+}

@@ -1,0 +1,87 @@
+.blog_main {
+  position: relative;
+  padding: 40px 100px;
+  background-color: rgb(231, 236, 241);
+  .image_cont {
+    position: relative;
+    height: 330px;
+    margin-bottom: 30px;
+  }
+  .subtitle {
+    font-size: 46px;
+    font-weight: 650;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .desc {
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color:rgb(235, 167, 83);
+    background-image: url('../../../public/images/background/blogsub.jpg');
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 15px;
+    margin-bottom: 40px;
+  }
+  .cards_comp {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+   .contact_cont {
+    position: fixed;
+    right: 0;
+    top: 26%;
+    z-index: 1000;
+    ul {
+      background-color: rgb(227, 235, 239);
+      border-radius: 20px;
+      position: relative;
+      li {
+        position: relative;
+        overflow: hidden;
+        padding: 8px 2px;
+        display: flex;
+        margin-bottom: px;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(41, 83, 109);
+        border: 1px solid rgb(224, 218, 209);
+        transition: margin-left 1s ease, background-color 0.3s ease;
+        font-weight: 700;
+        border-radius: 6px;
+
+        a {
+          display: flex;
+          color: white;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          text-decoration: none;
+        }
+        &:hover {
+          margin-left: -12px; /* Adjust the margin as needed */
+          background-color: rgb(172, 51, 51);
+          transition: 0.5s ease-in-out;
+        }
+
+        svg {
+          margin-right: 5px;
+          fill: white; /* Set the fill color of the icons to white */
+        }
+      }
+      .item {
+        border-bottom-left-radius: 10px;
+      }
+      .item1 {
+        border-top-left-radius: 10px;
+      }
+    }
+  }
+}
