@@ -33,7 +33,7 @@ const Navbar = () => {
         <Link href="/blogs">
           <div className={styles.navbar_items}>Blogs</div>
         </Link>
-        <Link href="/career">
+        <Link href="/referus">
           <div className={styles.navbar_items}>Refer Us</div>
         </Link>
         <Link href="/contact">
