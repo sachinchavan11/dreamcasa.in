@@ -70,13 +70,7 @@ const Aboutus = () => {
               estate. I firmly believe that real estate isnt just about
               transactions its about building dreams and securing futures.
               With a keen eye for lucrative investments, 
-              <br></br>
-              <br></br>
-              <p>
-                Join me in shaping a future where your investments in real
-                estate go beyond the ordinary, where every plot of land holds
-                the promise of prosperity.
-              </p>
+              
             </p>
           </div>
         </div>
@@ -89,13 +83,7 @@ const Aboutus = () => {
             lands and charting a course toward a prosperous future in real
             estate. I firmly believe that real estate isnt just about
             transactions.
-            <br></br>
-            <br></br>
-            <p>
-              Join me in shaping a future where your investments in real estate
-              go beyond the ordinary, where every plot of land holds the promise
-              of prosperity. 
-            </p>
+            
           </p>
           <div className={styles.img_main_cont}>
             <div className={styles.img_container}>
