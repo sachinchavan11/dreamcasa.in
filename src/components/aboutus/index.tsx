@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './index.module.scss';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Aboutus = () => {
   return (
@@ -20,7 +21,7 @@ const Aboutus = () => {
           </h1>
           <h1 className={`${styles.title}`}>Since 2020</h1>
           <p className={`${styles.description}`}>
-            ONE  OF THE TOP REALESTATE CHANNEL PARTNER FIRM IN HYDERABAD
+            ONE OF THE TOP REALESTATE CHANNEL PARTNER FIRM IN HYDERABAD
           </p>
         </div>
       </div>
@@ -46,6 +47,69 @@ const Aboutus = () => {
       </div>
       <div className={`${styles.team}`}>
         <h1 className={`${styles.teamHeading}`}>MEET OUR TEAM</h1>
+        <div className={styles.team_cont}>
+          <div className={styles.img_main_cont}>
+            <div className={styles.img_container}>
+              <Image
+                src="/images/team/founder.jpg"
+                alt="founder_pic"
+                layout="fill"
+                objectFit="cover"
+              />
+            </div>
+            <h2>SACHIN CHAVAN</h2>
+            <p>FOUNDER - <span>DreamCasa Pvt Limited</span></p>
+          </div>
+          <div>
+            <p className={styles.founder_desc}>
+              As the CEO of our dynamic channel partner website in the realm of
+              real estate, I bring to the table four years of invaluable
+              experience navigating the intricate landscape of property
+              investment. My passion lies in unlocking the immense potential of
+              lands and charting a course toward a prosperous future in real
+              estate. I firmly believe that real estate isn't just about
+              transactions; it's about building dreams and securing futures.
+              With a keen eye for lucrative investments, 
+              <br></br>
+              <br></br>
+              <p>
+                Join me in shaping a future where your investments in real
+                estate go beyond the ordinary, where every plot of land holds
+                the promise of prosperity.
+              </p>
+            </p>
+          </div>
+        </div>
+        <div className={styles.team_cont_1}>
+          <p className={styles.founder_desc}>
+            As the CEO of our dynamic channel partner website in the realm of
+            real estate, I bring to the table four years of invaluable
+            experience navigating the intricate landscape of property
+            investment. My passion lies in unlocking the immense potential of
+            lands and charting a course toward a prosperous future in real
+            estate. I firmly believe that real estate isn't just about
+            transactions.
+            <br></br>
+            <br></br>
+            <p>
+              Join me in shaping a future where your investments in real estate
+              go beyond the ordinary, where every plot of land holds the promise
+              of prosperity. 
+            </p>
+          </p>
+          <div className={styles.img_main_cont}>
+            <div className={styles.img_container}>
+              <Image
+                src="/images/team/co-founder.jpeg"
+                alt="founder_pic"
+                layout="fill"
+                objectFit="cover"
+              />
+            </div>
+            <h2>MAHESH KAMMARI</h2>
+            <p>CO-FOUNDER <span>DreamCasa Pvt Limited</span></p>
+          </div>
+        </div>
       </div>
     </div>
   );
