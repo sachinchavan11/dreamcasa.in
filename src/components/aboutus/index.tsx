@@ -67,8 +67,8 @@ const Aboutus = () => {
               experience navigating the intricate landscape of property
               investment. My passion lies in unlocking the immense potential of
               lands and charting a course toward a prosperous future in real
-              estate. I firmly believe that real estate isn't just about
-              transactions; it's about building dreams and securing futures.
+              estate. I firmly believe that real estate isnt just about
+              transactions its about building dreams and securing futures.
               With a keen eye for lucrative investments, 
               <br></br>
               <br></br>
@@ -87,7 +87,7 @@ const Aboutus = () => {
             experience navigating the intricate landscape of property
             investment. My passion lies in unlocking the immense potential of
             lands and charting a course toward a prosperous future in real
-            estate. I firmly believe that real estate isn't just about
+            estate. I firmly believe that real estate isnt just about
             transactions.
             <br></br>
             <br></br>
