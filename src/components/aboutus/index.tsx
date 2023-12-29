@@ -19,7 +19,7 @@ const Aboutus = () => {
             <br />
             <div className={`${styles.lining}`} />
           </h1>
-          <h1 className={`${styles.title}`}>Since 2020</h1>
+          <h1 className={`${styles.title}`}>SINCE 2019</h1>
           <p className={`${styles.description}`}>
             ONE OF THE TOP REALESTATE CHANNEL PARTNER FIRM IN HYDERABAD
           </p>
@@ -60,7 +60,8 @@ const Aboutus = () => {
             <h2>SACHIN CHAVAN</h2>
             <p>FOUNDER - <span>DreamCasa Pvt Limited</span></p>
           </div>
-          <div>
+          <div className={styles.message_desc}>
+            <p className={styles.Message}>Our Founder Message :</p>
             <p className={styles.founder_desc}>
               As the CEO of our dynamic channel partner website in the realm of
               real estate, I bring to the table four years of invaluable
@@ -75,8 +76,10 @@ const Aboutus = () => {
           </div>
         </div>
         <div className={styles.team_cont_1}>
+          <div className={styles.message_desc}>
+          <p className={styles.Message}>Our CO-Founder Message :</p>
           <p className={styles.founder_desc}>
-            As the CEO of our dynamic channel partner website in the realm of
+            As the Co-founder of our  channel partner website in the realm of
             real estate, I bring to the table four years of invaluable
             experience navigating the intricate landscape of property
             investment. My passion lies in unlocking the immense potential of
@@ -85,6 +88,7 @@ const Aboutus = () => {
             transactions.
             
           </p>
+          </div>
           <div className={styles.img_main_cont}>
             <div className={styles.img_container}>
               <Image
