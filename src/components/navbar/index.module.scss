@@ -81,6 +81,12 @@
     flex-direction: row;
     gap: 20px;
   }
+  .navbar_button {
+    display: none;
+  }
+  .navbar_cont_mobile {
+    display: none;
+  }
 }
 
 @keyframes TitleFade {
@@ -89,5 +95,46 @@
   }
   to {
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar_main {
+    .navbar_cont {
+      display: none;
+    }
+    .login_touch_btn {
+      display: none;
+    }
+    .navbar_button {
+      display: block;
+      display: flex;
+      flex-direction: column;
+      .navbutton_bars {
+        background: white;
+        height: 2px;
+        width: 40px;
+        margin-top: 7.5px; /* Half of the desired gap */
+        margin-bottom: 7.5px; /* Half of the desired gap */
+      }
+    }
+    .navbar_cont_mobile {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 80px;
+      z-index: 100;
+      width: 100%;
+      background: rgba(105, 164, 176, 0.8);
+      .navbar_items {
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        transition: color 0.3s ease;
+        &:hover {
+          color: rgb(105, 164, 176);
+        }
+      }
+    }
   }
 }
