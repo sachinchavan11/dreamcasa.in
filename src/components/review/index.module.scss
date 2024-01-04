@@ -11,7 +11,7 @@
     .gif_cont {
       position: relative;
       height: 120px;
-      width:210px;
+      width: 210px;
     }
     .highlight {
       font-weight: 700;
@@ -25,7 +25,6 @@
         font-weight: 700;
       }
     }
-    
   }
 
   .tagline {
@@ -47,6 +46,16 @@
     }
     .card_slider {
       width: 50%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    padding: 20px 20px;
+    .card_image_cont {
+      flex-direction: column;
+      .card_slider
+      {
+        width: 100%;
+      }
     }
   }
 }

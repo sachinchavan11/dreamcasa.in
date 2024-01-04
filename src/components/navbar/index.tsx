@@ -54,26 +54,28 @@ const Navbar = () => {
           </div>
         </div>
       )}
-      <div className={styles.navbar_button}>
-        <button onClick={() => setNav(!nav)}>
-          <div className={`${styles.navbutton_bars}`} />
-          <div className={`${styles.navbutton_bars}`} />
-          <div className={`${styles.navbutton_bars}`} />
-        </button>
-      </div>
-      <div className={styles.navbar_logo}>
-        <div className={styles.animation_container}>
-          <Image
-            src="/images/logo.png"
-            alt="logo_animation"
-            layout="fill"
-            objectFit="cover"
-            className={styles.img}
-          />
+      <div className={styles.navbar_mobile_cont}>
+        <div className={styles.navbar_button}>
+          <button onClick={() => setNav(!nav)}>
+            <div className={`${styles.navbutton_bars}`} />
+            <div className={`${styles.navbutton_bars}`} />
+            <div className={`${styles.navbutton_bars}`} />
+          </button>
         </div>
-        <div className={styles.test}>
-          <p className={styles.title}>DREAMCASA</p>
-          <p className={styles.tag}>Right Path to Dream key</p>
+        <div className={styles.navbar_logo}>
+          <div className={styles.animation_container}>
+            <Image
+              src="/images/logo.png"
+              alt="logo_animation"
+              layout="fill"
+              objectFit="cover"
+              className={styles.img}
+            />
+          </div>
+          <div className={styles.test}>
+            <p className={styles.title}>DREAMCASA</p>
+            <p className={styles.tag}>Right Path to Dream key</p>
+          </div>
         </div>
       </div>
       <div className={styles.navbar_cont}>

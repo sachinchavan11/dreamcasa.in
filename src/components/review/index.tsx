@@ -31,17 +31,21 @@ const ReviewCard = () => {
   };
   return (
     <div className={styles.main_container}>
-     <div className={styles.heading}> 
-     <h2 className={styles.highlight}>
-        CLIENT TESTIMONIALS:
-        <span className={styles.title}>VOICES ABOUT OUR COMPANY</span>
-      </h2>
-      <div className={styles.gif_cont}>
-        <Image src='/images/gifs/clients_success.gif' alt='animation' layout='fill' objectFit='cover' />
+      <div className={styles.heading}>
+        <h2 className={styles.highlight}>
+          CLIENT TESTIMONIALS:
+          <span className={styles.title}>VOICES ABOUT OUR COMPANY</span>
+        </h2>
+        <div className={styles.gif_cont}>
+          <Image
+            src="/images/gifs/clients_success.gif"
+            alt="animation"
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
       </div>
-    
-     </div>
-     <p className={styles.tagline}>
+      <p className={styles.tagline}>
         {`"Empowering Dreams, Delighting Lives - Where Customer Satisfaction is Our
         Commitment!"`}
       </p>
