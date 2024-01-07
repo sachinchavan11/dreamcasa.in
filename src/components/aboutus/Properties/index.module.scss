@@ -1,0 +1,30 @@
+.main_cont {
+  position: relative;
+  padding: 40px;
+  .heading {
+    position: relative;
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .tagline {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .prop_cont {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .prop_list {
+    width: 70%;
+    background-color: red;
+  }
+  .latest {
+    width: 30%;
+    background-color: aqua;
+  }
+}
