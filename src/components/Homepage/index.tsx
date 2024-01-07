@@ -1,7 +1,7 @@
 import React from 'react';
 import ContentBar from '../Contentbar';
 import styles from './index.module.scss';
-import FeatureComponent from '../FeatureComponet';
+import Services from '../servicesComponent';
 import Legacy from '../legacy';
 import WorkFlow from '../WorkFlow';
 import CustomerReviews from '../review';
@@ -29,7 +29,7 @@ const Homepage = () => {
           <ContentBar />
         </div>
         <FeaturedProps />
-        <FeatureComponent />
+        <Services />
         <WorkFlow />
         <CustomerReviews />
         <Legacy />

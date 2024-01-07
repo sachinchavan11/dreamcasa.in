@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './index.module.scss';
 import Image from 'next/image';
 import CardFeature from '../CardFeature';
+import Slider from 'react-slick';
 
 const cardlist = [
   {
@@ -28,14 +29,31 @@ const cardlist = [
 ];
 
 const Services = () => {
+  const sliderSettings = {
+    dots: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    speed: 2000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
   return (
     <div className={styles.main_cont}>
-     <div className={styles.title_gif}>
-     <h2 className={styles.title}>OUR <span className={styles.highlight}>SERVICES</span></h2>
-      <div className={styles.animation_cont}>
-        <Image src="/gifs/building_animation.gif" alt='animation_building' layout='fill' objectFit='cover'   />
+      <div className={styles.title_gif}>
+        <h2 className={styles.title}>
+          OUR <span className={styles.highlight}>SERVICES</span>
+        </h2>
+        <div className={styles.animation_cont}>
+          <Image
+            src="/gifs/building_animation.gif"
+            alt="animation_building"
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
       </div>
-     </div>
       <p className={styles.desc}>
         Unlocking Doors to Your Dreams - Our Services Tailored for Your Perfect
         Home.
@@ -53,6 +71,20 @@ const Services = () => {
             </div>
           );
         })}
+      </div>
+      <div className={styles.mobile_cont}>
+        <Slider {...sliderSettings}>
+          {cardlist.map((item: any, index: any) => (
+            <div key={index} className={styles.card_main_container}>
+              <CardFeature
+                title={item.title}
+                description={item.description}
+                label={item.label}
+                image={item.image}
+              />
+            </div>
+          ))}
+        </Slider>
       </div>
     </div>
   );

@@ -3,8 +3,8 @@
   position: relative;
   width: 100%;
   margin-bottom: 60px;
-background-color: rgb(227, 239, 246);
-  
+  background-color: rgb(227, 239, 246);
+
   .heading {
     display: flex;
     flex-direction: row;
@@ -88,10 +88,13 @@ background-color: rgb(227, 239, 246);
             text-align: center;
           }
         }
-        .arrow{
+        .arrow {
           padding-left: 20px;
         }
       }
     }
+  }
+  @media screen and (max-width: 768px) {
+    padding: 40px;
   }
 }

@@ -80,6 +80,13 @@
       border: 1px solid rgb(201, 201, 90);
     }
   }
+  @media screen and (max-width: 768px) {
+    padding: 20px;
+    .tagline
+    {
+      height: unset;
+    }
+  }
 }
 @keyframes countUp {
   from {

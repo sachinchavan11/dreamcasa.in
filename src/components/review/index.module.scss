@@ -17,6 +17,7 @@
       font-weight: 700;
       font-size: 36px;
       margin-bottom: 30px;
+      text-align: center;
       .title {
         font-size: 36px;
         line-height: 40px;
@@ -52,8 +53,7 @@
     padding: 20px 20px;
     .card_image_cont {
       flex-direction: column;
-      .card_slider
-      {
+      .card_slider {
         width: 100%;
       }
     }

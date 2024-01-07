@@ -18,7 +18,7 @@
     text-align: center;
     display: flex;
     align-items: center;
-    color:rgb(235, 167, 83);
+    color: rgb(235, 167, 83);
     background-image: url('../../../public/images/background/blogsub.jpg');
     text-align: center;
     font-size: 24px;
@@ -34,7 +34,7 @@
     gap: 60px;
     flex-wrap: wrap;
   }
-   .contact_cont {
+  .contact_cont {
     position: fixed;
     right: 0;
     top: 26%;
@@ -83,5 +83,8 @@
         border-top-left-radius: 10px;
       }
     }
+  }
+  @media screen and (max-width: 740px) {
+    padding: 20px;
   }
 }
