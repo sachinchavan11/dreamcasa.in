@@ -4,19 +4,19 @@ import PropsCard from '../PropsCard';
 
 const Dataprops = [
   {
-    name: 'VASAVI',
-    location: 'Nampally',
+    name: 'IMARK',
+    location: 'ShankarPally',
     pricing: 'Starting from 60L-2Cr ',
     extra: 'Apartment | 2BHK | 3HK | 4BHK',
   },
   {
-    name: 'PRESTIAGE ',
-    location: 'Madhapur',
-    pricing: 'Starting from 40L-1.5Cr ',
+    name: 'SUCHIRINDIA ',
+    location: 'SHAMSHABAD',
+    pricing: 'Starting from 50L-1Cr ',
     extra: 'Apartment | 2BHK | 3HK | 4BHK',
   },
   {
-    name: 'MYHOME',
+    name: 'RAADHE',
     location: 'NankramGuda',
     pricing: 'Starting from 70L-2.5Cr',
     extra: 'Apartment | 2BHK | 3HK | 4BHK',
