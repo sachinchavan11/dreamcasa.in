@@ -1,0 +1,14 @@
+.main_cont {
+  .latest {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .prop_cont {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

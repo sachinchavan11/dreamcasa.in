@@ -17,14 +17,19 @@
   .prop_cont {
     display: flex;
     flex-direction: row;
+    gap:30px;
     width: 100%;
   }
   .prop_list {
     width: 70%;
-    background-color: red;
+    // background-color: red;
   }
   .latest {
     width: 30%;
-    background-color: aqua;
+    padding: 20px;
+    // background-color: aqua;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 20px 0px gray;
   }
 }

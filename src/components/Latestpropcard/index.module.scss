@@ -1,0 +1,39 @@
+.prop_card
+{
+ 
+    position: relative;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 10px 0px 5px 5px rgb(226, 220, 220);
+    gap: 20px;
+    .img_cont
+    {
+        position: relative;
+        height: 80px;
+        width: 150px;
+        >img
+        {
+        border-radius: 10px;
+
+        }
+    }
+    .info_details
+    {
+        .title
+        {
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        .area
+        {
+            font-size: 16px;
+            font-weight: 500;
+
+        }
+
+    }
+}
