@@ -12,7 +12,9 @@ const PropertiesHero = () => {
         <div className={styles.prop_list}>
           <AllProperty />
         </div>
-        <div className={styles.latest}><LatestProps/></div>
+        <div className={styles.latest}>
+          <LatestProps />
+        </div>
       </div>
     </div>
   );
