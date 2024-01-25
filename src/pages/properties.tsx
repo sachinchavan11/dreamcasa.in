@@ -1,4 +1,4 @@
-import PropertiesHero from '@/components/aboutus/Properties';
+import PropertiesHero from '@/components/Properties';
 import React from 'react';
 
 const Properties = () => {

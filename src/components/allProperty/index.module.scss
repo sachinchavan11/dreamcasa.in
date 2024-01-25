@@ -1,0 +1,56 @@
+.main_cont {
+  position: relative;
+  .search_cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(117, 121, 125);
+
+    .filter_type {
+      > select {
+        width: 140px;
+        height: 30px;
+        border-radius: 8px;
+        background-color: rgb(241, 239, 239);
+
+        > option {
+          font-size: 16px;
+          font-weight: 600;
+        }
+      }
+      > input {
+        width: 160px;
+        height: 30px;
+        padding: 10px;
+        background-color: rgb(241, 239, 239);
+        color: white;
+        border-radius: 6px;
+      }
+    }
+    .type {
+      font-size: 18px;
+      color: white;
+      font-weight: 600;
+    }
+  }
+  .btn_cont {
+    background-color: rgb(238, 241, 181);
+    width: 160px;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+
+    > button {
+      width: 100%;
+      padding: 2px 4px;
+      text-align: center;
+      color:rgb(60, 56, 56);
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+}

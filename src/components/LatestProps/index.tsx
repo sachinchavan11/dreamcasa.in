@@ -7,16 +7,19 @@ const propdata = [
     title: 'Imark Developers',
     price: 'starting from 70 lakhs',
     Area: 'ShankarPally',
+    image: '/images/latestprops/suchirindia.png',
   },
   {
     title: 'SuchirIndia TimberLeaf',
     price: 'starting from 50 lakhs',
     Area: 'Shamshabad',
+    image: '/images/latestprops/suchirindia.png',
   },
   {
     title: 'Raadhe ',
     price: 'starting from 80 lakhs',
     Area: 'Tellapur',
+    image: '/images/latestprops/raadhe.png',
   },
 ];
 const LatestProps = () => {
@@ -31,6 +34,7 @@ const LatestProps = () => {
                 name={item.title}
                 price={item.price}
                 area={item.Area}
+                image={item.image}
               />
             </>
           );
