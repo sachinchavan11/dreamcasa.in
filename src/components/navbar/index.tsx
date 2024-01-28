@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import styles from './index.module.scss';
 import Avatar from '@mui/material/Avatar';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import { Button } from '@mui/material';
 
 const Navbar = () => {

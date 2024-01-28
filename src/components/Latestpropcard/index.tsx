@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import styles from './index.module.scss';
 
 const LatestPropCard = ({ name, price, area, image }: any) => {

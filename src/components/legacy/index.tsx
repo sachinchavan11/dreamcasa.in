@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './index.module.scss'; // Make sure to use the correct file path
-import Images from 'next/image';
+import Images from 'next/legacy/image';
 
 const Legacy = () => {
   const data = [

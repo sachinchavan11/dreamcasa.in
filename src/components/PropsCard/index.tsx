@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './index.module.scss';
 import FeaturedProps from '../FeaturedProps';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 const PropsCard = (props: any) => {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './index.module.scss';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 
 const BlogCard = (props: any) => {
   const { title, month, index, desc } = props;

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './index.module.scss';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import Link from 'next/link';
 
 const ContactCard = ({ name, image }: any) => {

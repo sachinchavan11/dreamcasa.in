@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import { Inter } from 'next/font/google';
 import App from './_app';
 import Homepage from '@/components/Homepage';

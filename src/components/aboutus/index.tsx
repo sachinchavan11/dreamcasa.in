@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './index.module.scss';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 
 const Aboutus = () => {
   return (
