@@ -4,9 +4,15 @@ import styles from './index.module.scss';
 import Avatar from '@mui/material/Avatar';
 import Image from 'next/legacy/image';
 import { Button } from '@mui/material';
+import { useRouter } from 'next/router';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const router = useRouter();
+
+  const handleClick = () => {
+    router.push('/login');
+  };
   return (
     <div className={styles.navbar_main}>
       {nav && (
@@ -99,7 +105,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className={styles.login_touch_btn}>
-        <div className={styles.btn_container}>
+        <div className={styles.btn_container} onClick={handleClick}>
           <button className={styles.btn}>Login</button>
         </div>
         <div>
