@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <div>
       <SEO
-        title="DreamCasa - Your Real Estate Channel Partner"
-        description="Right Path for Dream home,Explore our premium real estate services. Find your dream home with DreamCasa, your trusted channel partner."
-        keywords="Real estate, DreamCasa, Dream home, channel partner,Properties around hyderabad"
+        title="DreamCasa - Your Real Estate Property listing"
+        description="Right Path for Dream home,Explore our premium real estate services. Find your dream home with DreamCasa, your trusted Property listing."
+        keywords="Real estate, DreamCasa, Dream home, Property listing,Properties around hyderabad"
       />
       <Homepage />
     </div>

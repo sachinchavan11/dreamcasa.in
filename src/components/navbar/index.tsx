@@ -9,6 +9,7 @@ import { useRouter } from 'next/router';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const router = useRouter();
+  const [showProductsDropdown, setShowProductsDropdown] = useState(false);
 
   const handleClick = () => {
     router.push('/login');
@@ -102,6 +103,29 @@ const Navbar = () => {
         </Link>
         <Link href="/about">
           <div className={styles.navbar_items}>About Us</div>
+        </Link>
+        <Link href={''}>
+          <div
+            className={styles.navbar_items}
+            onMouseEnter={() => setShowProductsDropdown(true)}
+            onMouseLeave={() => setShowProductsDropdown(false)}
+          >
+            Products
+            {/* {showProductsDropdown && (
+              <div className={styles.products_dropdown}>
+                <Link href="/custom-builder">
+                  <div className={styles.products_dropdown_item}>
+                    Custom Builder
+                  </div>
+                </Link>
+                <Link href="/invest-in-land">
+                  <div className={styles.products_dropdown_item}>
+                    Invest in Land
+                  </div>
+                </Link>
+              </div>
+            )} */}
+          </div>
         </Link>
       </div>
       <div className={styles.login_touch_btn}>
