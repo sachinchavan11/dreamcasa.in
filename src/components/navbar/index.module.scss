@@ -75,6 +75,37 @@
         color: rgb(105, 164, 176);
       }
     }
+    .navbar_items1 {
+      position: relative;
+      font-size: 20px;
+      top: 0px;
+      font-weight: 600;
+      color: white;
+      z-index: 10;
+      transition: color 0.3s ease;
+      &:hover {
+        color: rgb(105, 164, 176);
+      }
+      .products_dropdown {
+        position: absolute;
+        color: rgb(57, 57, 46);
+        width: 170px;
+        left: -10px;
+        top:30px;
+        text-align: center;
+        z-index: 100;
+        border-radius: 10px;
+        background-color: white;
+        .products_dropdown_item {
+          padding: 8px 12px;
+          margin: 2px;
+          border-radius: 10px;
+          &:hover {
+            background: rgb(224, 222, 222);
+          }
+        }
+      }
+    }
   }
   .login_touch_btn {
     display: flex;
@@ -118,7 +149,7 @@
       }
     }
   }
- 
+
   .navbar_main {
     .navbar_cont {
       display: none;

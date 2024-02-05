@@ -106,12 +106,12 @@ const Navbar = () => {
         </Link>
         <Link href={''}>
           <div
-            className={styles.navbar_items}
+            className={styles.navbar_items1}
             onMouseEnter={() => setShowProductsDropdown(true)}
             onMouseLeave={() => setShowProductsDropdown(false)}
           >
             Products
-            {/* {showProductsDropdown && (
+            {showProductsDropdown && (
               <div className={styles.products_dropdown}>
                 <Link href="/custom-builder">
                   <div className={styles.products_dropdown_item}>
@@ -124,7 +124,7 @@ const Navbar = () => {
                   </div>
                 </Link>
               </div>
-            )} */}
+            )}
           </div>
         </Link>
       </div>
