@@ -29,7 +29,9 @@ const OneStopSol = () => {
     <div className={styles.main_cont}>
       <div className={styles.feature_cont}>
         <div className={styles.sol_cont}>
-          <p className={styles.sol_cont_title}>all in one solution</p>
+          <p className={styles.sol_cont_title}>
+            all in one <span className={styles.highlight}>solution</span>
+          </p>
           <p className={styles.sol_cont_desc}>
             In this unorgainsed market, we offer professional in-house home
             building services for clients with varying budgets, from affordable
