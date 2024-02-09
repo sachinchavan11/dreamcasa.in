@@ -1,18 +1,53 @@
-.main_cont
-{
-    position: relative;
-    padding: 40px 100px;
-    background-color: rgb(231, 217, 217);
-    .feature_cont
-    {
-        display: flex;
-        flex-direction: row;
-    }
-    .sol_cont
-    {
-        font-size: 54px;
+.main_cont {
+  position: relative;
+  padding: 40px 60px;
+  background-color: rgb(231, 217, 217);
+  .feature_cont {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    .sol_cont {
+      max-width: 300px;
+      .sol_cont_title {
+        font-size: 36px;
         font-weight: 700;
         text-transform: uppercase;
+      }
+      .sol_cont_desc {
+        font-size: 18px;
+        font-weight: 500;
+      }
     }
 
+    .feature_item {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      .item_cont {
+        min-width: 430px;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-left: 30px;
+        max-width: 430px;
+        .image_wrap {
+          padding: 10px;
+          .img_cont {
+            position: relative;
+            height: 100px;
+            width: 100px;
+          }
+        }
+
+        .title {
+          font-size: 24px;
+          font-weight: 600;
+        }
+        .desc {
+          font-size: 16px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
 }
