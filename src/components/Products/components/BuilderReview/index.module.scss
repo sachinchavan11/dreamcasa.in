@@ -1,0 +1,20 @@
+.main_cont {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 40px 50px;
+  color: white;
+  gap: 15px;
+  border-radius: 10px;
+  align-items: center;
+  background-color: rgb(43, 58, 88);
+  .desc {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
