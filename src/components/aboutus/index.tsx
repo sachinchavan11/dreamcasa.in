@@ -28,9 +28,9 @@ const Aboutus = () => {
       <div className={`${styles.more}`}>
         <h1 className={`${styles.title}`}>DREAMCASA</h1>
         <p className={`${styles.moreInfo}`}>
-          Dreamcasa is a full-service real estate brokerage firm that
+          Dreamcasa is a full-service Real estate one-stop solution for your dreamhome firm that
           specializes in buying, selling, and renting residential and commercial
-          properties. Our team of experienced and knowledgeable real estate
+          properties and lands ,furnitures(interior) required for your dream home. Our team of experienced and knowledgeable real estate
           agents are committed to providing our clients with exceptional service
           and support throughout the entire real estate process. Whether you are
           a first-time homebuyer or a seasoned real estate investor, we are here
@@ -63,8 +63,8 @@ const Aboutus = () => {
           <div className={styles.message_desc}>
             <p className={styles.Message}>Our Founder Message :</p>
             <p className={styles.founder_desc}>
-              As the CEO of our dynamic Property listing website in the realm of
-              real estate, I bring to the table four years of invaluable
+              As the CEO of our dynamic Property Listing Property in the realm of
+              RealEstate, I bring to the table four years of invaluable
               experience navigating the intricate landscape of property
               investment. My passion lies in unlocking the immense potential of
               lands and charting a course toward a prosperous future in real
