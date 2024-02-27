@@ -5,6 +5,7 @@ import Avatar from '@mui/material/Avatar';
 import Image from 'next/legacy/image';
 import { Button } from '@mui/material';
 import { useRouter } from 'next/router';
+import { FaAngleDown } from 'react-icons/fa';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -13,6 +14,9 @@ const Navbar = () => {
 
   const handleClick = () => {
     router.push('/login');
+  };
+  const handleImgClick = () => {
+    router.push('/');
   };
   return (
     <div className={styles.navbar_main}>
@@ -77,6 +81,7 @@ const Navbar = () => {
               layout="fill"
               objectFit="cover"
               className={styles.img}
+              onClick={handleImgClick}
             />
           </div>
           <div className={styles.test}>
@@ -110,7 +115,7 @@ const Navbar = () => {
             onMouseEnter={() => setShowProductsDropdown(true)}
             onMouseLeave={() => setShowProductsDropdown(false)}
           >
-            Products
+            <span>Products</span> <FaAngleDown />
             {showProductsDropdown && (
               <div className={styles.products_dropdown}>
                 <Link href="/custom-builder">

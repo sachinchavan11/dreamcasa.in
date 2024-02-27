@@ -13,15 +13,19 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.0.0",
     "@mui/material": "^5.0.0",
+    "@nestjs/swagger": "^7.3.0",
     "next": "14.0.3",
     "next-auth": "^4.24.5",
+    "ra-data-json-server": "^4.16.11",
     "react": "^18",
+    "react-admin": "^4.16.11",
     "react-dom": "^18",
     "react-icons": "^4.12.0",
     "react-slick": "^0.29.0",
     "react-spring": "^9.7.3",
     "sass": "^1.69.5",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "swagger-ui-express": "^5.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -1,0 +1,23 @@
+.main_cont {
+  padding: 20px;
+  position: relative;
+  height: 100vh;
+  .dash_cont {
+    ul {
+      display: flex;
+      flex-direction: column;
+      li {
+        .dash_items {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 20px;
+          .item_title {
+            font-size: 20px;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
