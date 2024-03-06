@@ -1,12 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --gordita: 'Ivar Headline', 'Ivar Headline Subset', 'Adjusted Times',
-    'Adjusted Times New Roman', 'Times New Roman', serif;
-    --desc: "Open Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
-}
-
-@media (prefers-color-scheme: dark) {
-}
