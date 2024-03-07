@@ -1,0 +1,18 @@
+.main_container {
+  position: relative;
+  padding: 40px;
+  .title {
+    font-size: 34px;
+    font-weight: 600;
+  }
+  .settings {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+  }
+  .card_container {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+  }
+}

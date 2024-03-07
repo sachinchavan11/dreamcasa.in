@@ -7,13 +7,10 @@ import { MdEditNote } from 'react-icons/md';
 import { useState } from 'react';
 import Image from 'next/legacy/image';
 import { useRouter } from 'next/router';
-import Box from '@mui/material/Box';
-import Tab from '@mui/material/Tab';
-import Tabs from '@mui/material/Tabs';
-import TabPanel from '@mui/lab/TabPanel';
 import { Dashboard } from '@mui/icons-material';
 import DashboardComponent from '../DashboardComponent';
 import ProfileComponent from '../ProfileComponent';
+import { SiHomeassistantcommunitystore } from 'react-icons/si';
 
 const SideNav = () => {
   const router = useRouter();
@@ -37,18 +34,6 @@ const SideNav = () => {
     <div className={styles.main_cont}>
       <div className={styles.sidenav_cont}>
         <ul>
-          <li>
-            <div className={styles.animation_container}>
-              <Image
-                src="/images/logo.png"
-                alt="logo_animation"
-                layout="fill"
-                objectFit="cover"
-                className={styles.img}
-                onClick={handleImgClick}
-              />
-            </div>
-          </li>
           <li onClick={() => setTabValue(0)}>
             <div className={styles.dash_items}>
               <MdOutlineSpaceDashboard size={20} />
@@ -71,6 +56,12 @@ const SideNav = () => {
             <div className={styles.dash_items}>
               <MdEditNote size={25} />
               <p className={styles.item_title}>Edit Props</p>
+            </div>
+          </li>
+          <li onClick={() => setTabValue(3)}>
+            <div className={styles.dash_items}>
+              <SiHomeassistantcommunitystore size={25} />
+              <p className={styles.item_title}>Custom Builder </p>
             </div>
           </li>
         </ul>

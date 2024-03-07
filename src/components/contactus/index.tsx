@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './index.module.scss';
-import Layout from '../../components/Layout';
 
 const ContactUs = () => {
   const handleFormSubmit = (e: any) => {

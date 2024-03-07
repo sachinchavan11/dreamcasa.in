@@ -1,8 +1,8 @@
 // components/Layout.tsx
 
 import React, { ReactNode } from 'react';
-import Navbar from '../../src/components/navbar';
-import Footer from '../../src/components/Footer';
+import Navbar from '../navbar';
+import Footer from '../Footer';
 interface LayoutProps {
     children: ReactNode;
   }
