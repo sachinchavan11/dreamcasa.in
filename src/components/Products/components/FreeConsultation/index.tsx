@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import styles from './index.module.scss';
+import Image from 'next/legacy/image';
+import { IoHomeOutline } from 'react-icons/io5';
+import { VscWorkspaceTrusted } from "react-icons/vsc";
+import { FaHandshake } from "react-icons/fa";
 
 const FreeConsultation = () => {
   const [name, setName] = useState('');
@@ -13,9 +17,66 @@ const FreeConsultation = () => {
 
   return (
     <div className={styles.main_container}>
+      <div className={styles.img_cont}>
+        <Image
+          src="/images/background/homesection_bg.jpg"
+          alt="background image"
+          layout="fill"
+          objectFit="cover"
+        />
+      </div>
       <div className={styles.img_back_cont}>
-        <p className={styles.home_title}>Construct your dream 
-        <br></br><span className={styles.hightlight}>house as you like</span> </p>
+        <div>
+          <p className={styles.home_title}>
+            Construct your dream
+            <br></br>
+            <span className={styles.hightlight}>house as you like</span>{' '}
+          </p>
+        </div>
+        <div className={styles.tagline_cont}>
+          Start building your dream home the way you have dreamt of with
+          DreamCasa
+        </div>
+        <div className={styles.main_cred_cont}>
+          <div className={styles.cred_cont}>
+            <div>
+              <IoHomeOutline size={56} />
+            </div>
+            <div className={styles.count_cont}>
+              <p>100+</p>
+              <p>Homes</p>
+            </div>
+          </div>
+          <div className={styles.cred_cont}>
+            <div>
+              <VscWorkspaceTrusted size={56} />
+            </div>
+            <div className={styles.count_cont}>
+              <p>100%</p>
+              <p>Quality</p>
+            </div>
+          </div>
+          <div className={styles.cred_cont}>
+            <div>
+              <FaHandshake size={56} />
+            </div>
+            <div className={styles.count_cont}>
+              <p>100%</p>
+              <p>Trusted</p>
+            </div>
+          </div>
+        </div>
+        <div className={styles.branding}>
+          <div>
+            <p>India's</p>
+            <p className={styles.one_cont}>No.1</p>
+          </div>
+          <p className={styles.hori_line}></p>
+          <p>
+            Modern Construction <br></br>Tech Enterprise <br></br>
+            Leader
+          </p>
+        </div>
       </div>
       <div className={styles.contact_us_cont}>
         <form onSubmit={handleSubmit}>

@@ -2,30 +2,81 @@
   position: relative;
   width: 100%;
   display: flex;
-  padding: 20px 60px;
-  background-image: url('../../../../../public/images//background/homesection_bg.jpg');
+  justify-content: space-between;
+  padding: 30px 60px;
+  // background-image: url('../../../../../public/images//background/homesection_bg.jpg');
+  .img_cont {
+    position: absolute;
+    inset: 0px;
+    filter: brightness(0.9) contrast(0.8) saturate(0.9);
+  }
   .img_back_cont {
+    position: relative;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     width: 50%;
     margin-top: 60px;
+    padding: 40px;
+    .tagline_cont {
+      font-size: 24px;
+      font-weight: 600;
+      color: rgb(134, 85, 24);
+      max-width: 600px;
+    }
+    .main_cred_cont
+    {
+      display: flex;
+      gap: 40px;
+      margin-bottom: 10px;
+      .cred_cont {
+        display: flex;
+        gap: 20px;
+        .count_cont
+        {
+          font-size: 20px;
+          font-weight: 700;
+        }
+      }
+    }
+   
+    .branding {
+      display: flex;
+      gap: 20px;
+      color: rgb(31, 13, 13);
+      font-size: 18px;
+      -webkit-text-stroke: 1.2px #5b5252;
+      font-weight: 600;
+      .one_cont {
+        font-size: 26px;
+        color: rgb(120, 19, 19);
+      }
+      .hori_line {
+        height: 80px;
+        width: 2px;
+        background-color: rgb(48, 15, 15);
+      }
+    }
     .home_title {
-      font-size: 46px;
-      color: rgb(27, 165, 181);
+      font-size: 42px;
+      color: rgb(23, 26, 27);
       text-transform: uppercase;
       font-weight: 700;
       text-shadow: 10px red;
-      
+
       .hightlight {
-        color: orange;
+        color: rgb(182, 36, 63);
       }
     }
   }
   .contact_us_cont {
     width: 50%;
-    background-color: white;
+    background-color: hwb(90 95% 4%);
     position: relative;
-    padding: 50px 80px;
+    padding: 40px 60px;
     border: 1px salmon;
-    max-width: 800px;
+    max-width: 630px;
     border-radius: 20px;
     box-shadow: 10px 1px 20px 1px gray;
     border: 1px solid rgb(210, 166, 166);
@@ -39,7 +90,8 @@
       text-transform: uppercase;
     }
     label {
-      font-size: 20px;
+      font-size: 18px;
+      color: rgb(116, 107, 107);
       font-weight: 500;
     }
     .input_cont {
@@ -64,7 +116,7 @@
       input {
         width: 100%;
         padding: 10px;
-        height: 40px;
+        height: 38px;
         border: 1px solid black;
         border-radius: 6px;
       }
@@ -98,11 +150,10 @@
         max-width: 400px;
         border-radius: 8px;
         text-transform: uppercase;
-        &:hover{
+        &:hover {
           background-color: rgb(96, 134, 155);
         }
       }
-    
     }
   }
 }
