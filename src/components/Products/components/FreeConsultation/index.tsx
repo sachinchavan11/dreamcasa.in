@@ -68,7 +68,7 @@ const FreeConsultation = () => {
         </div>
         <div className={styles.branding}>
           <div>
-            <p>India's</p>
+            <p>Indias</p>
             <p className={styles.one_cont}>No.1</p>
           </div>
           <p className={styles.hori_line}></p>
