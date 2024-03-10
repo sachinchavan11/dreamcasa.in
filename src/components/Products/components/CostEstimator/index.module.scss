@@ -1,0 +1,40 @@
+.main_container {
+  position: relative;
+  padding: 60px 80px;
+  .title_cont {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+  .desc_cont {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .cost_esti_cont {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    .calculator_cont {
+        border-radius: 20px;
+        box-shadow: 10px 20px 20px 2px gray;
+        border: 2px solid rgb(128, 124, 124);
+        padding: 40px;
+        position: relative;
+        width: 70%;
+      }
+      .img_cont {
+        width: 30%;
+        .img_cal_cont {
+          width: 100%;
+          position: relative;
+          height: 100vh;
+        }
+      }
+  }
+  
+}
